@@ -4,11 +4,11 @@ using namespace std;
 int main() {
     int score;
 
-    // Input: Get the student's score
+    
     cout << "Enter the student's score (out of 100): ";
     cin >> score;
 
-    // Determine the grade using if-else statements
+    
     if (score >= 90 && score <= 100) {
         cout << "Grade: A" << endl;
     } else if (score >= 80 && score < 90) {
